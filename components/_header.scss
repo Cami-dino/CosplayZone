@@ -1,0 +1,32 @@
+header {
+    background-color: rgb(114, 180, 189);
+    padding: 5px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+        color: teal;
+        font-size: 70px;
+        text-align: center;
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+        }
+
+        li {
+            margin: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: teal;
+            font-size: 40px;
+        }
+    }
+}
+    h2{color: white;}

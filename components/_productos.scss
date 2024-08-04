@@ -1,0 +1,102 @@
+.Productos {
+    display: grid;
+    grid-template-rows: 350px 350px 350px 350px;
+    grid-template-columns: 400px 400px 400px 400px 400px ;
+    grid-template-areas:
+        "uno dos tres cuatro cinco"
+        "seis siete ocho nueve diez"
+        "once doce trece catorce quince"
+        "dieciseis diecisiete dieciocho diecinueve veinte"
+    ;
+}
+
+.uno {
+    grid-area: uno;
+}
+
+.dos {
+    grid-area: dos;
+}
+.tres {
+    grid-area: tres;
+}
+.cuatro {
+    grid-area: cuatro;
+}
+.cinco {
+    grid-area: cinco;
+}
+.seis {
+    grid-area: seis;
+}
+.siete {
+    grid-area: siete;
+}
+.ocho {
+    grid-area: ocho;
+}
+.nueve {
+    grid-area: nueve;
+}
+.diez {
+    grid-area: diez;
+}
+.once {
+    grid-area: once;
+}
+.doce {
+    grid-area: doce;
+}
+.trece {
+    grid-area: trece;
+}
+.catorce {
+    grid-area: catorce;
+}
+.quince {
+    grid-area: quince;
+}
+.dieciseis {
+    grid-area: dieciseis;
+}
+.diecisiete {
+    grid-area: diecisiete;
+}
+.dieciocho {
+    grid-area: dieciocho;
+}
+.diecinueve {
+    grid-area: diecinueve;
+}
+.veinte {
+    grid-area: veinte;
+}
+.veintiuno {
+    grid-area: ventiuno;
+}
+
+
+.Productos div {
+    border: 1px solid teal;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Productos div h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.Productos div a {
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+}
+
+.Productos div img {
+    width: 300px;
+    height: 250px;
+}
