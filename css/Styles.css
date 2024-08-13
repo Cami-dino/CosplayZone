@@ -1,5 +1,5 @@
 /*!--!-------RESET----------*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -111,7 +111,7 @@ h2 {
     width: 90px;
 }
 
-#text_carousel{
+#text_carousel {
     position: absolute;
     left: 600px;
 }
@@ -129,7 +129,7 @@ footer {
 .Productos {
     display: grid;
     grid-template-rows: 350px 350px 350px 350px;
-    grid-template-columns: 400px 400px 400px 400px 400px ;
+    grid-template-columns: 400px 400px 400px 400px 400px;
     grid-template-areas:
         "uno dos tres cuatro cinco"
         "seis siete ocho nueve diez"
@@ -145,60 +145,79 @@ footer {
 .dos {
     grid-area: dos;
 }
+
 .tres {
     grid-area: tres;
 }
+
 .cuatro {
     grid-area: cuatro;
 }
+
 .cinco {
     grid-area: cinco;
 }
+
 .seis {
     grid-area: seis;
 }
+
 .siete {
     grid-area: siete;
 }
+
 .ocho {
     grid-area: ocho;
 }
+
 .nueve {
     grid-area: nueve;
 }
+
 .diez {
     grid-area: diez;
 }
+
 .once {
     grid-area: once;
 }
+
 .doce {
     grid-area: doce;
 }
+
 .trece {
     grid-area: trece;
 }
+
 .catorce {
     grid-area: catorce;
 }
+
 .quince {
     grid-area: quince;
 }
+
 .dieciseis {
     grid-area: dieciseis;
 }
+
 .diecisiete {
     grid-area: diecisiete;
 }
+
 .dieciocho {
     grid-area: dieciocho;
 }
+
 .diecinueve {
     grid-area: diecinueve;
 }
+
 .veinte {
     grid-area: veinte;
 }
+
 .veintiuno {
     grid-area: ventiuno;
 }
@@ -231,7 +250,7 @@ footer {
 
 /*?---------SERVICIOS--------*/
 
-.text1{
+.text1 {
     z-index: 100;
     position: absolute;
     color: black;
@@ -241,7 +260,7 @@ footer {
     left: 50%;
 }
 
-.text2{
+.text2 {
     z-index: 100;
     position: absolute;
     color: black;
@@ -251,7 +270,7 @@ footer {
     left: 50%;
 }
 
-.text3{
+.text3 {
     z-index: 100;
     position: absolute;
     color: black;
@@ -261,13 +280,37 @@ footer {
     left: 50%;
 }
 
+
+
+form {
+    margin: 15px;
+}
+
+.col-md-4 {
+    padding: 20px;
+    color: white;
+}
+
+.col-md-3 {
+    padding: 20px;
+    color: white;
+    align-items: center;
+}
+
+.col-12 {
+    padding: 20px;
+    color: white;
+    align-items: center;
+    left: 50%;
+}
+
 /*?---------NOSOTROS--------*/
 
-.conoce{
+.conoce {
     text-align: center;
 }
 
-.texto1{
+.texto1 {
     z-index: 100;
     position: absolute;
     color: black;
@@ -277,7 +320,7 @@ footer {
     left: 40%;
 }
 
-.texto2{
+.texto2 {
     z-index: 100;
     position: absolute;
     color: black;
@@ -287,7 +330,7 @@ footer {
     left: 40%;
 }
 
-.texto3{
+.texto3 {
     z-index: 100;
     position: absolute;
     color: black;
@@ -301,7 +344,7 @@ footer {
 
 /*?---------CARUSEL--------*/
 
-#carouselExampleIndicators{
+#carouselExampleIndicators {
     width: 450px;
     height: 450px;
     left: 40%;
@@ -313,12 +356,12 @@ footer {
         grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px;
         grid-template-columns: 350px 350px;
         grid-template-areas:
-            "uno dos"  
+            "uno dos"
             "tres cuatro"
             "cinco seis"
             "siete ocho"
             "nueve diez"
-            "once doce" 
+            "once doce"
             "trece catorce"
             "quince dieciseis"
             "diecisiete dieciocho"
@@ -327,3 +370,31 @@ footer {
     }
 }
 
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section div img {
+        width: 100%;
+    }
+
+    .fixed {
+        bottom: 10px;
+        right: 10px;
+    }
+}
